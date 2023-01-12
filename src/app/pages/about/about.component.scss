@@ -1,11 +1,67 @@
 @import "../../../styles/variables.scss";
 
+.page-content,
+.page-text-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .container {
   width: 100%;
   height: auto;
 
   .page-content {
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 4rem;
+
+    .img {
+      width: 8rem;
+      height: 8rem;
+      border-radius: 200%;
+    }
+
+    .page-text-block {
+      margin-top: 3rem;
+      width: 50%;
+
+      .svg-icons {
+        svg {
+          margin: 1rem 0.5rem;
+          width: 1.5rem;
+          height: 1.5rem;
+          fill: $dark-mode-text-color;
+          cursor: pointer;
+
+          &:hover {
+            fill: $dark-mode-blue-text-color-hover;
+          }
+        }
+      }
+
+      h2 {
+        color: $dark-mode-text-color;
+        letter-spacing: 0.1rem;
+      }
+
+      p {
+        color: $dark-mode-text-color;
+        letter-spacing: 0.1rem;
+        line-height: 1.5rem;
+        font-weight: normal;
+        margin-top: 2rem;
+        text-align: center;
+
+        a {
+          color: $dark-mode-blue-text-color;
+
+          &:hover {
+            color: $dark-mode-blue-text-color-hover;
+          }
+        }
+      }
+    }
   }
 }
