@@ -1,3 +1,7 @@
-@import url(styles/resets.scss);
-@import url(styles/fonts.scss);
-@import url(styles/variables.scss);
+@import "styles/variables.scss";
+@import "styles/resets.scss";
+@import "styles/fonts.scss";
+
+body {
+  background-color: $dark-mode-black-background;
+}
