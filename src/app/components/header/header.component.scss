@@ -6,9 +6,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+
+  .router-link-active {
+    color: $dark-mode-blue-text-color-hover;
+  }
 
   h2 {
     color: $dark-mode-text-color;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
   }
 
   nav {
@@ -20,6 +27,10 @@ header {
 
       li {
         margin-right: 1.2rem;
+
+        .router-link-active {
+          color: $dark-mode-blue-text-color-hover;
+        }
 
         a {
           color: $dark-mode-text-color;
