@@ -1,0 +1,16 @@
+@import "../../../styles/variables.scss";
+
+footer {
+  margin: 0 auto;
+  width: 50%;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: $dark-mode-blue-text-color;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+  }
+}

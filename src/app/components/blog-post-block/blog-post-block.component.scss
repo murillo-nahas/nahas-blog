@@ -1,0 +1,68 @@
+@import "../../../styles/variables.scss";
+
+.home-post-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+  margin-top: 3rem;
+
+  .date {
+    width: 25%;
+    height: 10rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    p {
+      color: $dark-mode-gray-text-color;
+      font-size: 0.9rem;
+      letter-spacing: 0.1rem;
+      font-weight: bold;
+    }
+  }
+
+  .text {
+    width: 65%;
+    height: 10rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    h2 {
+      letter-spacing: 0.1rem;
+      color: $dark-mode-text-color;
+      cursor: pointer;
+
+      &:hover {
+        color: $dark-mode-gray-text-color-hover;
+      }
+    }
+
+    p {
+      color: $dark-mode-gray-text-color;
+      font-size: 0.9rem;
+      letter-spacing: 0.1rem;
+      margin-top: 1rem;
+    }
+
+    span {
+      margin-top: 1rem;
+      cursor: pointer;
+      color: $dark-mode-blue-text-color;
+
+      &:hover {
+        color: $dark-mode-blue-text-color-hover;
+      }
+    }
+  }
+}
+
+.divisor {
+  margin-top: 2rem;
+  width: 100%;
+  height: 0.019rem;
+  background-color: $dark-mode-gray-divisor;
+}
