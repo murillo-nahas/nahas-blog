@@ -1,0 +1,38 @@
+@import "../../../styles/variables.scss";
+
+.author-information {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .div-image {
+    img {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 200%;
+    }
+  }
+
+  .div-text {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    p {
+      color: $dark-mode-text-color;
+    }
+
+    .link-to-twitter {
+      color: $dark-mode-blue-text-color;
+      font-size: 0.8rem;
+      margin-top: 0.5rem;
+      letter-spacing: 0.1rem;
+
+      &:hover {
+        color: $dark-mode-blue-text-color-hover;
+      }
+    }
+  }
+}
