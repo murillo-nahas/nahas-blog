@@ -1,0 +1,54 @@
+@import "../../../styles/variables.scss";
+
+.container {
+  width: 100%;
+  height: auto;
+
+  .post-content {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+
+    aside {
+      padding: 1rem;
+      width: 40%;
+
+      p {
+        color: $dark-mode-gray-text-color;
+        cursor: pointer;
+        margin-top: 1rem;
+
+        &:hover {
+          color: $dark-mode-gray-text-color-hover;
+        }
+      }
+    }
+
+    .content {
+      padding: 1rem;
+      width: 60%;
+
+      margin-bottom: 1rem;
+
+      .image {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+      }
+
+      h3 {
+        color: $dark-mode-gray-text-color-post;
+        letter-spacing: 0.05rem;
+        line-height: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .p-normal-text {
+        letter-spacing: 0.05rem;
+        line-height: 1.5rem;
+        margin-top: 2rem;
+        color: $dark-mode-gray-text-color-post;
+      }
+    }
+  }
+}

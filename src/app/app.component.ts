@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
       <app-header></app-header>
       <router-outlet></router-outlet>
     </main>
-    <app-footer></app-footer>
+    <!-- <app-footer></app-footer> -->
   `,
   styleUrls: ['./app.component.scss'],
 })
