@@ -1,4 +1,4 @@
-@import "../../../styles/variables.scss";
+@import '../../../styles/variables.scss';
 
 .home-post-block {
   display: flex;
@@ -64,4 +64,12 @@
   width: 100%;
   height: 0.019rem;
   background-color: $dark-mode-gray-divisor;
+}
+
+@media (max-width: 1000px) {
+  .home-post-block {
+    .image {
+      display: none;
+    }
+  }
 }

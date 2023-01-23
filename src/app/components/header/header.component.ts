@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   template: `
     <header>
       <h2 routerLink="/home" routerLinkActive="router-link-active">
-        Nahas' Blog
+        Nahas Blog
       </h2>
       <nav>
         <ul>

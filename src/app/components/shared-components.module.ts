@@ -1,26 +1,26 @@
 import { BlogPostBlockComponent } from './blog-post-block/blog-post-block.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PageInfoComponent } from './page-info/page-info.component';
 import { HomePostBlockComponent } from './home-post-block/home-post-block.component';
 import { PostInformationComponent } from './post-information/post-information.component';
-import { ReturnToBlogComponent } from './return-to-blog/return-to-blog.component';
+import { InformationBlockComponent } from './information-block/information-block.component';
+import { PageDescriptionComponent } from './page-info/page-description.component';
 
 @NgModule({
   declarations: [
-    PageInfoComponent,
+    PageDescriptionComponent,
     HomePostBlockComponent,
     BlogPostBlockComponent,
     PostInformationComponent,
-    ReturnToBlogComponent,
+    InformationBlockComponent,
   ],
   imports: [CommonModule],
   exports: [
-    PageInfoComponent,
+    PageDescriptionComponent,
     HomePostBlockComponent,
     BlogPostBlockComponent,
     PostInformationComponent,
-    ReturnToBlogComponent,
+    InformationBlockComponent,
   ],
 })
 export class SharedComponentsModule {}

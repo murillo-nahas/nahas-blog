@@ -2,7 +2,18 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'blog-post-block',
-  templateUrl: './blog-post-block.component.html',
+  template: `<section class="home-post-block">
+    <div class="date">
+      <p>{{ date }}</p>
+    </div>
+    <div class="text">
+      <h2>{{ postTitle }}</h2>
+      <p>
+        {{ postDescription }}
+      </p>
+      <span>Read more →</span>
+    </div>
+  </section> `,
   styleUrls: ['./blog-post-block.component.scss'],
 })
 export class BlogPostBlockComponent {

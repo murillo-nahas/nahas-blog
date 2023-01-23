@@ -1,4 +1,4 @@
-@import "../../../styles/variables.scss";
+@import '../../../styles/variables.scss';
 
 .page-content,
 .page-text-block {
@@ -25,7 +25,7 @@
 
     .page-text-block {
       margin-top: 2rem;
-      width: 50%;
+      width: 70%;
 
       .svg-icons {
         svg {
@@ -61,6 +61,22 @@
             color: $dark-mode-blue-text-color-hover;
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .page-content {
+    .page-text-block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 1rem;
+
+      h2 {
+        font-size: 1.3rem;
       }
     }
   }
