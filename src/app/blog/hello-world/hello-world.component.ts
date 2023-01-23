@@ -19,7 +19,9 @@ import { Component } from '@angular/core';
             alt="Mountains Image"
             class="image"
             loading="lazy" />
+          <p routerLink="/blog/posts" class="return-posts">Return to posts ←</p>
           <h3>Welcome to my blog!</h3>
+
           <p class="p-normal-text">
             I've been planning to create this blog for a long time and after
             several attempts, here I am! Well, here is a brief overview of how I
